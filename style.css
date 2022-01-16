@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 :root {
     --primary-color:#5eead4;
+    --dark-grey:#94a3b8;
 }
 body{
     font-family: 'Oswald', sans-serif;
@@ -64,4 +65,23 @@ margin:auto;
 }
 .navigation .link-active{
 font-weight:bold;
+}
+/**header**/
+.hero{
+    padding:2rem;
+}
+.hero .hero-img{
+    max-width: 250px;
+    display:  block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-grey);
+    padding-top:1rem;
+    text-align: center;
+    
+}
+.hero .hero-heading .inverted{
+    color:var(--primary-color);
+
 }
