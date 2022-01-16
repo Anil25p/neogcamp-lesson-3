@@ -34,3 +34,34 @@ margin:auto;
     border: 1px solid var(--primary-color);
 }
 /** look into bem naming convention for css**/
+
+/**lists**/
+.list-non-bullet {
+    list-style: none;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem .5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .brand{
+    font-weight: bold;
+    font:1.1rem;
+    
+
+}
+.navigation .nav-pills {
+    text-align: right;
+}
+.navigation .link{
+    color:black;
+
+}
+.navigation .link-active{
+font-weight:bold;
+}

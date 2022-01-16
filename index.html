@@ -39,29 +39,34 @@
     <h2>@lists</h2>
     <h3>unorder lists</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>item one</li>
         <li>item teo</li>
         <li>item three</li>
     </ul>
+    <h3>unordered inline list</h3>
+    <li class="list-item-inline">inline itemone</li>
+    <li class="list-item-inline">inline itemtwo</li>
+    <li class="list-item-inline">inline itemthree</li>
     <h3>ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>tea</li>
         <li>cofee</li>
         <li>sugar</li>
     </ol>
+    <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="http://cricbuzz.com">home</a>
+    <nav class="navigation container" >
+        <div class="brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="http://cricbuzz.com">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
              </li>
-             <li>
-                 <a href="/">about</a>
+             <li class="list-item-inline">
+                 <a class="link" href="/">about</a>
              </li>
         </ul>
     </nav>
