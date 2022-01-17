@@ -2,7 +2,7 @@
 :root {
     --primary-color:#5eead4;
     --dark-grey:#94a3b8;
---off-white:#9ca3af;
+--off-white:#f9fafb;
 }
 body{
     font-family: 'Oswald', sans-serif;
@@ -17,6 +17,9 @@ hr{
 .container-centered{
     max-width: 600px;
        margin:auto;
+}
+a{
+    text-decoration: none;  
 }
 /**link**/
 .link{
@@ -48,9 +51,9 @@ hr{
 }
 .navigation{
     background-color: var(--primary-color);
-    color: black;
+    color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .navigation .brand{
     font-weight: bold;
@@ -62,11 +65,11 @@ hr{
     text-align: right;
 }
 .navigation .link{
-    color:black;
+    color:white;
 
 }
 .navigation .link-active{
-font-weight:bold;
+font-weight:none;
 }
 /**header**/
 .hero{
@@ -101,12 +104,14 @@ font-weight:bold;
 }
 footer{
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 1.5rem 0rem;
     text-align: center;
-    color:black;
+    color:white;
+    border-bottom-right-radius: 1rem;
+    
 }
-.footer .link{
-    color: black;
+.footer  a{
+    color: white;
 }
 
 .footer .footer-header{
@@ -117,3 +122,4 @@ footer{
     padding-inline-start: 0px;
     
 }
+
