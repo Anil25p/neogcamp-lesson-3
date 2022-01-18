@@ -12,10 +12,10 @@ hr{
 }
 /** container**/
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 4rem 0rem;
 }
 .container-centered{
-    max-width: 600px;
+    max-width: 450px;
        margin:auto;
 }
 a{
