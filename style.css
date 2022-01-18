@@ -69,7 +69,8 @@ a{
 
 }
 .navigation .link-active{
-font-weight:bold;
+
+color:var(--dark-grey);
 }
 /**header**/
 .hero{
