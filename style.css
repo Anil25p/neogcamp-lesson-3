@@ -94,7 +94,7 @@ color:var(--dark-grey);
 }
 /** sections **/
 .section{
-    padding:2rem;
+    padding:2rem 0rem 2rem 0rem;
 }
 .section h1 {
     text-align: center;
@@ -103,7 +103,7 @@ color:var(--dark-grey);
     background-color: var(--off-white);
 
 }
-footer{
+.footer{
     background-color: var(--primary-color);
     padding: 1.5rem 0rem;
     text-align: center;
